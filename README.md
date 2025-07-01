@@ -11,7 +11,7 @@ Originally built as a command-line program, Arcana Engine Beta now runs in the b
 - 🃏 Input a tarot card spread and your personal reflections
 - 🤖 Receive an AI-powered interpretation using OpenAI’s API
 - 📜 Terminal-style UI embedded in the browser via `xterm.js`
-- ⚙️ Haskell backend manages CLI logic and input/output
+- ⚙️ [Haskell backend](https://github.com/dakotafabro/arcana-engine-cli) manages CLI logic and input/output
 - 🌐 Modern Next.js frontend with future extensibility
 
 ---
