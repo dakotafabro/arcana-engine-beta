@@ -15,11 +15,7 @@ h1 {
 h1,
 span,
 div {
-  color: rgb(19, 209, 76) !important;
-}
-
-cursor {
-  color: yellow !important;
+  color: rgb(202, 193, 17) !important;
 }
 
 .xterm {
