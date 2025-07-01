@@ -1,0 +1,31 @@
+html {
+  background: #2e0643;
+}
+
+.xterm-rows {
+  white-space: normal !important;
+}
+
+.xterm {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.xterm-screen {
+  padding: 5rem 0rem;
+  margin: 0 auto;
+  width: 75% !important;
+  height: 100% !important;
+}
+
+.xterm-viewport {
+  width: 100%;
+}
+
+.xterm-rows {
+  width: 100% !important;
+  height: 100% !important;
+  text-wrap: nowrap;
+  padding: 2rem;
+  border: 1px solid goldenrod;
+}
