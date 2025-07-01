@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "start:ws": "node ws-server.js",
-    "build": "next build & npm run start",
-    "start": "npm run dev & npm run start:ws"
+    "start": "next start",
+    "build": "next build",
+    "start:ws": "node ws-server.js"
   },
   "dependencies": {
     "next": "13.5.6",
@@ -14,5 +14,8 @@
     "sass": "^1.89.2",
     "ws": "^8.13.0",
     "xterm": "^5.3.0"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.10"
   }
 }
