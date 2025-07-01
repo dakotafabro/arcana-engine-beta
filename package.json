@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "start:ws": "node ws-server.js",
-    "build": "next build",
+    "build": "next build & npm run start",
     "start": "npm run dev & npm run start:ws"
   },
   "dependencies": {
