@@ -14,8 +14,8 @@ export default function ArcanaTerminal() {
   useEffect(() => {
     const term = new Terminal({
       theme: {
-        background: "#2e0643",
-        foreground: "white",
+        background: "#F7F7F7",
+        foreground: "#F7F7F7",
       },
       cursorBlink: true,
       cursorStyle: "block",
@@ -45,11 +45,14 @@ export default function ArcanaTerminal() {
   }, []);
 
   return (
-    <div
-      className="terminal-container"
-      ref={terminalRef}
-      tabIndex={0}
-      style={STYLES}
-    />
+    <>
+      <h1>Arcana Engine</h1>
+      <div
+        className="terminal-container"
+        ref={terminalRef}
+        tabIndex={0}
+        style={STYLES}
+      />
+    </>
   );
 }

@@ -1,9 +1,25 @@
 html {
-  background: #2e0643;
+  background: #141414;
+  overflow: hidden;
 }
 
-.xterm-rows {
-  white-space: normal !important;
+h1 {
+  font-family: Geneva, Tahoma, sans-serif !important;
+  width: 100%;
+  text-align: center;
+  margin: 0 !important;
+  color: #f7f7f7;
+  padding-top: 2rem;
+}
+
+h1,
+span,
+div {
+  color: rgb(19, 209, 76) !important;
+}
+
+cursor {
+  color: yellow !important;
 }
 
 .xterm {
@@ -12,9 +28,10 @@ html {
 }
 
 .xterm-screen {
-  padding: 5rem 0rem;
-  margin: 0 auto;
-  width: 75% !important;
+  padding: 0rem 0rem 0rem 0rem;
+  margin: 0;
+  margin-left: -1rem;
+  width: 100% !important;
   height: 100% !important;
 }
 
@@ -26,6 +43,13 @@ html {
   width: 100% !important;
   height: 100% !important;
   text-wrap: nowrap;
-  padding: 2rem;
-  border: 1px solid goldenrod;
+  padding: 5rem;
+  background: #141414 !important;
+  margin: 0 auto;
+  font-family: Geneva, Tahoma, sans-serif !important;
+  white-space: normal !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
