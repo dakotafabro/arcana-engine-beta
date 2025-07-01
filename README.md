@@ -89,6 +89,7 @@ MIT © Dakota Fabro
 #### 🧙‍♀️ “To know, to will, to dare, and to reflect.”
 
 Let your practice speak — and let Arcana listen.
-\_\_
 
-(Project dedicated to Jess, the moon to my sun, my soft place to land ✨💛🌙)
+---
+
+(Project dedicated to Jess--the moon to my sun, my soft place to land ✨💛🌙)
