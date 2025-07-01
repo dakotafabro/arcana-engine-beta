@@ -23,7 +23,7 @@ export default function ArcanaTerminal() {
       cursorInactiveStyle: "block",
     });
 
-    const socket = new WebSocket("wss://arcana-engine-beta.fly.dev/");
+    const socket = new WebSocket("ws://localhost:8080");
 
     socket.onopen = () => {
       term.open(terminalRef.current);

@@ -6,4 +6,4 @@ COPY . .
 
 RUN npm install
 
-CMD ["node", "ws-server.js"]
+CMD "node ws-server.js"
