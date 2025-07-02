@@ -1,8 +1,8 @@
 # 🔮 Arcana Engine Beta
 
-Arcana Engine Beta is a browser-based spiritual companion tool that connects a Haskell backend to a Next.js frontend. It helps tarot practitioners reflect on their card pulls and deepen their understanding through AI-assisted interpretation. Powered by the OpenAI API, the app offers gentle insight after a user inputs their reflections on a tarot spread.
+Arcana Engine Beta is a browser-based spiritual companion tool that connects a Haskell backend to a Next.js frontend. It helps tarot practitioners reflect on their card pulls and deepen their understanding through AI-assisted interpretation. Powered by the OpenAI API, the app offers gentle insight after a user inputs their pulled cards into a tarot spread.
 
-Originally built as a command-line program, Arcana Engine Beta now runs in the browser using `xterm.js` to emulate a terminal interface.
+Originally built as a [command-line program](https://github.com/dakotafabro/arcana-engine-cli), Arcana Engine Beta now runs in the browser using `xterm.js` to emulate a terminal interface.
 
 ---
 
@@ -92,4 +92,4 @@ Let your practice speak — and let Arcana listen.
 
 ---
 
-(Project dedicated to Jess--the moon to my sun, my soft place to land ✨💛🌙)
+(For Jess, the catalyst for building this project--the moon to my sun, my soft place to land ✨💛🌙)
